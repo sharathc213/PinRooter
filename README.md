@@ -34,6 +34,7 @@ Scripts/
 ├── Root/    # Root bypass scripts
 ├── SSL/     # SSL bypass scripts
 └── Both/    # Combined scripts
+|__ PinRooter.py
    ```
 
 Place your custom Frida scripts in the respective directories.
@@ -47,12 +48,7 @@ Place your custom Frida scripts in the respective directories.
    git clone https://github.com/your-username/PinRooter.git
    cd PinRooter
    ```
-2. Install required Python libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
----
 
 ## Usage
 
@@ -64,7 +60,10 @@ python frida_tool.py [OPTIONS] app_identifier
 
 ### Options
 
-- `-n FILE` : Run commands from a specific codeshare file (e.g., `ROOT.txt`, `SSL.txt`).
+- `-n <NUMBER>` : Run scripts based on the number:
+  - `1` for Root bypass scripts.
+  - `2` for SSL bypass scripts.
+  - `3` for both Root and SSL bypass scripts combined.
 - `-r` : Run all scripts in the `Root/` folder.
 - `-s` : Run all scripts in the `SSL/` folder.
 - `-b` : Run all scripts in the `Both/` folder.
@@ -82,7 +81,7 @@ python frida_tool.py [OPTIONS] app_identifier
 
 2. **Run a Codeshare Script**:
    ```bash
-   python frida_tool.py -n Scripts/Root/ROOT.txt com.example.app
+   python frida_tool.py -n 1 com.example.app
    ```
 
 3. **Run All Root Scripts**:
