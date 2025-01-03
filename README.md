@@ -61,8 +61,8 @@ python frida_tool.py [OPTIONS] app_identifier
 ### Options
 
 - `-n <NUMBER>` : Run scripts based on the number:
-  - `1` for Root bypass scripts.
-  - `2` for SSL bypass scripts.
+  - `1` for SSL bypass scripts.
+  - `2` for Root bypass scripts.
   - `3` for both Root and SSL bypass scripts combined.
 - `-r` : Run all scripts in the `Root/` folder.
 - `-s` : Run all scripts in the `SSL/` folder.
