@@ -1,0 +1,14 @@
+dzonerzy/fridantiroot
+KishorBal/multiple-root-detection-bypass
+Gand3lf/xamarin-antiroot
+JJK96/iroot-root-detection-bypass
+khoomelvin/fridaantiroot
+Surendrajat/anti-root
+khoomelvin/fridaantiroot
+subekti404dev/bypass-root-detection
+Q0120S/root-detection-bypass
+dmaral3noz/0xsaudi-root-detection-bypass
+fdciabdul/frida-multiple-bypass
+gchib297/custom-root-detection-bypass
+ercu/okhttp-log-root
+Zero3141/rootbeer-root-detection-bypass

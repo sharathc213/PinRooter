@@ -1,0 +1,12 @@
+pcipolloni/universal-android-ssl-pinning-bypass-with-frida
+sowdust/universal-android-ssl-pinning-bypass-2
+akabe1/frida-multiple-unpinning
+akabe1/frida-universal-pinning-bypasser
+avltree9798/universal-android-ssl-pinning-bypass
+masbog/frida-android-unpinning-ssl
+segura2010/android-certificate-pinning-bypass
+kooroshh/ssl-pinning-bypass-okhttp4
+gchib297/custom-phonegap-sslcertificatechecker-bypass
+silva95gustavo/okhttp3-certificate-pinner-bypass
+MartinRJ/frida-script-js
+ivan-sincek/android-ssl-pinning-bypass-2
